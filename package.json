@@ -1,0 +1,14 @@
+{
+  "name"  : "RestAPIExample",
+  "description" : "A research project into REST API technology",
+  "start" : "node server.js",
+  "scripts": {
+    "dev" : "nodemon server.js"
+  },
+  "dependencies" : {
+    "express": "^4.15.2",
+  },
+  "devDependencies" : {
+    "nodemon": "^1.11.0",
+  }
+}
