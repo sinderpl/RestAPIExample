@@ -3,12 +3,16 @@
 // Written by Alan Niemiec
 
     //Resources
-//Require the HTTP resource
-var http = require('http');
+//Require the Express resource for handling NodeJS API
+const express = require('express');
 
+//Define a expression application
+var app = express();
 
+//Base get request for the homepage
+app.get('/', function (req, res){
+  res.send('Hello World!');
+});
 
-http.createServer(function(req, res){
-  res.setHeader(200, {'Content-Type' : 'text/html'});
-  res.write('Hello World!');
-}).listen(3000);
+//Start listening for requests to the API on port 3030
+app.listen(3000);
