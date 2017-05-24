@@ -4,11 +4,11 @@ Utilizing the Express NodeJS Framework I will be working on my API, REST and HTT
 ##Running Instructions
 1. Open a terminal and navigate to project folder.
 2. Run the following command to install dependencies.
-```Shell
+``` Shell
 npm install
 ```
 3. Make sure port 3000 is free and run the following command
-```Shell
+``` Shell
 node server.js
 ```
 4. Make requests to the API with the command specified in the server.js file.
